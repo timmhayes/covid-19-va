@@ -1,0 +1,25 @@
+{
+  "name": "covid-19-va",
+  "version": "1.0.0",
+  "description": "Data visualization for VA COVID-19 map",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmhayes/covid-19-va.git"
+  },
+  "author": "Tim Hayes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timmhayes/covid-19-va/issues"
+  },
+  "homepage": "https://github.com/timmhayes/covid-19-va#readme",
+  "dependencies": {
+    "fastify": "^3.25.3",
+    "fastify-static": "^4.5.0",
+    "node-cron": "^3.0.0"
+  }
+}

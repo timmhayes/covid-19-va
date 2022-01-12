@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID-19 Virginia Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Virginia COVID-19 New Cases</h1>
+    <h2>Average number of new cases per 100,000 residents in the past 7 days</h2>
+  </header>
+  <div class="map-box">
+    <svg viewBox="0 0 1000 625" preserveAspectRatio="xMaxYMax meet"></svg>
+    <input type="range" min="0" class="slider" id="dateRange">
+  </div>
+  <div id="currentDateOffset"></div>
+  <button class="play-button">Play</button>
+  <script src="https://d3js.org/d3.v5.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

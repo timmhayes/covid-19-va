@@ -1,0 +1,667 @@
+[
+  {
+    "Location": "Accomack",
+    "Population": 33413,
+    "FIPS": 51001
+  },
+  {
+    "Location": "Albemarle",
+    "Population": 112395,
+    "FIPS": 51003
+  },
+  {
+    "Location": "Alleghany",
+    "Population": 15223,
+    "FIPS": 51005
+  },
+  {
+    "Location": "Amelia",
+    "Population": 13265,
+    "FIPS": 51007
+  },
+  {
+    "Location": "Amherst",
+    "Population": 31307,
+    "FIPS": 51009
+  },
+  {
+    "Location": "Appomattox",
+    "Population": 16119,
+    "FIPS": 51011
+  },
+  {
+    "Location": "Arlington",
+    "Population": 238643,
+    "FIPS": 51013
+  },
+  {
+    "Location": "Augusta",
+    "Population": 77487,
+    "FIPS": 51015
+  },
+  {
+    "Location": "Bath",
+    "Population": 4209,
+    "FIPS": 51017
+  },
+  {
+    "Location": "Bedford",
+    "Population": 79462,
+    "FIPS": 51019
+  },
+  {
+    "Location": "Bland",
+    "Population": 6270,
+    "FIPS": 51021
+  },
+  {
+    "Location": "Botetourt",
+    "Population": 33596,
+    "FIPS": 51023
+  },
+  {
+    "Location": "Brunswick",
+    "Population": 15849,
+    "FIPS": 51025
+  },
+  {
+    "Location": "Buchanan",
+    "Population": 20355,
+    "FIPS": 51027
+  },
+  {
+    "Location": "Buckingham",
+    "Population": 16824,
+    "FIPS": 51029
+  },
+  {
+    "Location": "Campbell",
+    "Population": 55696,
+    "FIPS": 51031
+  },
+  {
+    "Location": "Caroline",
+    "Population": 30887,
+    "FIPS": 51033
+  },
+  {
+    "Location": "Carroll",
+    "Population": 29155,
+    "FIPS": 51035
+  },
+  {
+    "Location": "Charles City",
+    "Population": 6773,
+    "FIPS": 51036
+  },
+  {
+    "Location": "Charlotte",
+    "Population": 11529,
+    "FIPS": 51037
+  },
+  {
+    "Location": "Chesterfield",
+    "Population": 364548,
+    "FIPS": 51041
+  },
+  {
+    "Location": "Clarke",
+    "Population": 14783,
+    "FIPS": 51043
+  },
+  {
+    "Location": "Craig",
+    "Population": 4892,
+    "FIPS": 51045
+  },
+  {
+    "Location": "Culpeper",
+    "Population": 52552,
+    "FIPS": 51047
+  },
+  {
+    "Location": "Cumberland",
+    "Population": 9675,
+    "FIPS": 51049
+  },
+  {
+    "Location": "Dickenson",
+    "Population": 14124,
+    "FIPS": 51051
+  },
+  {
+    "Location": "Dinwiddie",
+    "Population": 27947,
+    "FIPS": 51053
+  },
+  {
+    "Location": "Essex",
+    "Population": 10599,
+    "FIPS": 51057
+  },
+  {
+    "Location": "Fairfax",
+    "Population": 1150309,
+    "FIPS": 51059
+  },
+  {
+    "Location": "Fauquier",
+    "Population": 72972,
+    "FIPS": 51061
+  },
+  {
+    "Location": "Floyd",
+    "Population": 15476,
+    "FIPS": 51063
+  },
+  {
+    "Location": "Fluvanna",
+    "Population": 27249,
+    "FIPS": 51065
+  },
+  {
+    "Location": "Franklin",
+    "Population": 54477,
+    "FIPS": 51067
+  },
+  {
+    "Location": "Frederick",
+    "Population": 91419,
+    "FIPS": 51069
+  },
+  {
+    "Location": "Giles",
+    "Population": 16787,
+    "FIPS": 51071
+  },
+  {
+    "Location": "Gloucester",
+    "Population": 38711,
+    "FIPS": 51073
+  },
+  {
+    "Location": "Goochland",
+    "Population": 24727,
+    "FIPS": 51075
+  },
+  {
+    "Location": "Grayson",
+    "Population": 15333,
+    "FIPS": 51077
+  },
+  {
+    "Location": "Greene",
+    "Population": 20552,
+    "FIPS": 51079
+  },
+  {
+    "Location": "Greensville",
+    "Population": 11391,
+    "FIPS": 51081
+  },
+  {
+    "Location": "Halifax",
+    "Population": 34022,
+    "FIPS": 51083
+  },
+  {
+    "Location": "Hanover",
+    "Population": 109979,
+    "FIPS": 51085
+  },
+  {
+    "Location": "Henrico",
+    "Population": 334389,
+    "FIPS": 51087
+  },
+  {
+    "Location": "Henry",
+    "Population": 50948,
+    "FIPS": 51089
+  },
+  {
+    "Location": "Highland",
+    "Population": 2232,
+    "FIPS": 51091
+  },
+  {
+    "Location": "Isle of Wight",
+    "Population": 38606,
+    "FIPS": 51093
+  },
+  {
+    "Location": "James City",
+    "Population": 78254,
+    "FIPS": 51095
+  },
+  {
+    "Location": "King and Queen",
+    "Population": 6608,
+    "FIPS": 51097
+  },
+  {
+    "Location": "King George",
+    "Population": 26723,
+    "FIPS": 51099
+  },
+  {
+    "Location": "King William",
+    "Population": 17810,
+    "FIPS": 51101
+  },
+  {
+    "Location": "Lancaster",
+    "Population": 10919,
+    "FIPS": 51103
+  },
+  {
+    "Location": "Lee",
+    "Population": 22173,
+    "FIPS": 51105
+  },
+  {
+    "Location": "Loudoun",
+    "Population": 420959,
+    "FIPS": 51107
+  },
+  {
+    "Location": "Louisa",
+    "Population": 37596,
+    "FIPS": 51109
+  },
+  {
+    "Location": "Lunenburg",
+    "Population": 11936,
+    "FIPS": 51111
+  },
+  {
+    "Location": "Madison",
+    "Population": 13837,
+    "FIPS": 51113
+  },
+  {
+    "Location": "Mathews",
+    "Population": 8533,
+    "FIPS": 51115
+  },
+  {
+    "Location": "Mecklenburg",
+    "Population": 30319,
+    "FIPS": 51117
+  },
+  {
+    "Location": "Middlesex",
+    "Population": 10625,
+    "FIPS": 51119
+  },
+  {
+    "Location": "Montgomery",
+    "Population": 99721,
+    "FIPS": 51121
+  },
+  {
+    "Location": "Nelson",
+    "Population": 14775,
+    "FIPS": 51125
+  },
+  {
+    "Location": "New Kent",
+    "Population": 22945,
+    "FIPS": 51127
+  },
+  {
+    "Location": "Northampton",
+    "Population": 12282,
+    "FIPS": 51131
+  },
+  {
+    "Location": "Northumberland",
+    "Population": 11839,
+    "FIPS": 51133
+  },
+  {
+    "Location": "Nottoway",
+    "Population": 15642,
+    "FIPS": 51135
+  },
+  {
+    "Location": "Orange",
+    "Population": 36254,
+    "FIPS": 51137
+  },
+  {
+    "Location": "Page",
+    "Population": 23709,
+    "FIPS": 51139
+  },
+  {
+    "Location": "Patrick",
+    "Population": 17608,
+    "FIPS": 51141
+  },
+  {
+    "Location": "Pittsylvania",
+    "Population": 60501,
+    "FIPS": 51143
+  },
+  {
+    "Location": "Powhatan",
+    "Population": 30333,
+    "FIPS": 51145
+  },
+  {
+    "Location": "Prince Edward",
+    "Population": 21849,
+    "FIPS": 51147
+  },
+  {
+    "Location": "Prince George",
+    "Population": 43010,
+    "FIPS": 51149
+  },
+  {
+    "Location": "Prince William",
+    "Population": 482204,
+    "FIPS": 51153
+  },
+  {
+    "Location": "Pulaski",
+    "Population": 33800,
+    "FIPS": 51155
+  },
+  {
+    "Location": "Rappahannock",
+    "Population": 7348,
+    "FIPS": 51157
+  },
+  {
+    "Location": "Richmond County",
+    "Population": 8923,
+    "FIPS": 51159
+  },
+  {
+    "Location": "Roanoke County",
+    "Population": 96929,
+    "FIPS": 51161
+  },
+  {
+    "Location": "Rockbridge",
+    "Population": 22650,
+    "FIPS": 51163
+  },
+  {
+    "Location": "Rockingham",
+    "Population": 83757,
+    "FIPS": 51165
+  },
+  {
+    "Location": "Russell",
+    "Population": 25781,
+    "FIPS": 51167
+  },
+  {
+    "Location": "Scott",
+    "Population": 21576,
+    "FIPS": 51169
+  },
+  {
+    "Location": "Shenandoah",
+    "Population": 44186,
+    "FIPS": 51171
+  },
+  {
+    "Location": "Smyth",
+    "Population": 29800,
+    "FIPS": 51173
+  },
+  {
+    "Location": "Southampton",
+    "Population": 17996,
+    "FIPS": 51175
+  },
+  {
+    "Location": "Spotsylvania",
+    "Population": 140032,
+    "FIPS": 51177
+  },
+  {
+    "Location": "Stafford",
+    "Population": 156927,
+    "FIPS": 51179
+  },
+  {
+    "Location": "Surry",
+    "Population": 6561,
+    "FIPS": 51181
+  },
+  {
+    "Location": "Sussex",
+    "Population": 10829,
+    "FIPS": 51183
+  },
+  {
+    "Location": "Tazewell",
+    "Population": 40429,
+    "FIPS": 51185
+  },
+  {
+    "Location": "Warren",
+    "Population": 40727,
+    "FIPS": 51187
+  },
+  {
+    "Location": "Washington",
+    "Population": 53935,
+    "FIPS": 51191
+  },
+  {
+    "Location": "Westmoreland",
+    "Population": 18477,
+    "FIPS": 51193
+  },
+  {
+    "Location": "Wise",
+    "Population": 36130,
+    "FIPS": 51195
+  },
+  {
+    "Location": "Wythe",
+    "Population": 28290,
+    "FIPS": 51197
+  },
+  {
+    "Location": "York",
+    "Population": 70045,
+    "FIPS": 51199
+  },
+  {
+    "Location": "Alexandria",
+    "Population": 159467,
+    "FIPS": 51510
+  },
+  {
+    "Location": "Bristol",
+    "Population": 17219,
+    "FIPS": 51520
+  },
+  {
+    "Location": "Buena Vista",
+    "Population": 6641,
+    "FIPS": 51530
+  },
+  {
+    "Location": "Charlottesville",
+    "Population": 46553,
+    "FIPS": 51540
+  },
+  {
+    "Location": "Chesapeake",
+    "Population": 249422,
+    "FIPS": 51550
+  },
+  {
+    "Location": "Colonial Heights",
+    "Population": 18170,
+    "FIPS": 51570
+  },
+  {
+    "Location": "Covington",
+    "Population": 5737,
+    "FIPS": 51580
+  },
+  {
+    "Location": "Danville",
+    "Population": 42590,
+    "FIPS": 51590
+  },
+  {
+    "Location": "Emporia",
+    "Population": 5766,
+    "FIPS": 51595
+  },
+  {
+    "Location": "Fairfax City",
+    "Population": 24146,
+    "FIPS": 51600
+  },
+  {
+    "Location": "Falls Church",
+    "Population": 14658,
+    "FIPS": 51610
+  },
+  {
+    "Location": "Franklin City",
+    "Population": 8180,
+    "FIPS": 51620
+  },
+  {
+    "Location": "Fredericksburg",
+    "Population": 27982,
+    "FIPS": 51630
+  },
+  {
+    "Location": "Galax",
+    "Population": 6720,
+    "FIPS": 51640
+  },
+  {
+    "Location": "Hampton",
+    "Population": 137148,
+    "FIPS": 51650
+  },
+  {
+    "Location": "Harrisonburg",
+    "Population": 51814,
+    "FIPS": 51660
+  },
+  {
+    "Location": "Hopewell",
+    "Population": 23033,
+    "FIPS": 51670
+  },
+  {
+    "Location": "Lexington",
+    "Population": 7320,
+    "FIPS": 51678
+  },
+  {
+    "Location": "Lynchburg",
+    "Population": 79009,
+    "FIPS": 51680
+  },
+  {
+    "Location": "Manassas City",
+    "Population": 42772,
+    "FIPS": 51683
+  },
+  {
+    "Location": "Manassas Park",
+    "Population": 17219,
+    "FIPS": 51685
+  },
+  {
+    "Location": "Martinsville",
+    "Population": 13485,
+    "FIPS": 51690
+  },
+  {
+    "Location": "Newport News",
+    "Population": 186247,
+    "FIPS": 51700
+  },
+  {
+    "Location": "Norfolk",
+    "Population": 238005,
+    "FIPS": 51710
+  },
+  {
+    "Location": "Norton",
+    "Population": 3687,
+    "FIPS": 51720
+  },
+  {
+    "Location": "Petersburg",
+    "Population": 33458,
+    "FIPS": 51730
+  },
+  {
+    "Location": "Poquoson",
+    "Population": 12460,
+    "FIPS": 51735
+  },
+  {
+    "Location": "Portsmouth",
+    "Population": 97915,
+    "FIPS": 51740
+  },
+  {
+    "Location": "Radford",
+    "Population": 16070,
+    "FIPS": 51750
+  },
+  {
+    "Location": "Richmond City",
+    "Population": 226610,
+    "FIPS": 51760
+  },
+  {
+    "Location": "Roanoke City",
+    "Population": 100011,
+    "FIPS": 51770
+  },
+  {
+    "Location": "Salem",
+    "Population": 25346,
+    "FIPS": 51775
+  },
+  {
+    "Location": "Staunton",
+    "Population": 25750,
+    "FIPS": 51790
+  },
+  {
+    "Location": "Suffolk",
+    "Population": 94324,
+    "FIPS": 51800
+  },
+  {
+    "Location": "Virginia Beach",
+    "Population": 459470,
+    "FIPS": 51810
+  },
+  {
+    "Location": "Waynesboro",
+    "Population": 22196,
+    "FIPS": 51820
+  },
+  {
+    "Location": "Williamsburg",
+    "Population": 15425,
+    "FIPS": 51830
+  },
+  {
+    "Location": "Winchester",
+    "Population": 28120,
+    "FIPS": 51840
+  }
+]
