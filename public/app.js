@@ -71,7 +71,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
         <tr><td>New Cases:</td><td>${daily}</td></tr>
         <tr><td>7-Day Average:</td><td>${format.number(average7Day)}</td></tr>
         <tr><td>7-Day Ave/100k:</td><td>${format.number(data)}</td></tr>
-        <tr><td>2020 Population:</td><td>${format.number(fips.Population)}</td></tr>
+        <tr><td>Population:</td><td>${format.number(fips.VDH18)}</td></tr>
       </table>
     `)
   }

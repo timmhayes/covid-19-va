@@ -2,666 +2,932 @@
   {
     "Location": "Accomack",
     "Population": 33413,
-    "FIPS": 51001
+    "FIPS": 51001,
+    "VHD19": 32316,
+    "VDH18": 32412
   },
   {
     "Location": "Albemarle",
     "Population": 112395,
-    "FIPS": 51003
+    "FIPS": 51003,
+    "VHD19": 109330,
+    "VDH18": 108718
   },
   {
     "Location": "Alleghany",
     "Population": 15223,
-    "FIPS": 51005
+    "FIPS": 51005,
+    "VHD19": 14860,
+    "VDH18": 14910
   },
   {
     "Location": "Amelia",
     "Population": 13265,
-    "FIPS": 51007
+    "FIPS": 51007,
+    "VHD19": 13145,
+    "VDH18": 13013
   },
   {
     "Location": "Amherst",
     "Population": 31307,
-    "FIPS": 51009
+    "FIPS": 51009,
+    "VHD19": 31605,
+    "VDH18": 31666
   },
   {
     "Location": "Appomattox",
     "Population": 16119,
-    "FIPS": 51011
+    "FIPS": 51011,
+    "VHD19": 15911,
+    "VDH18": 15841
   },
   {
     "Location": "Arlington",
     "Population": 238643,
-    "FIPS": 51013
+    "FIPS": 51013,
+    "VHD19": 236842,
+    "VDH18": 237521
   },
   {
     "Location": "Augusta",
     "Population": 77487,
-    "FIPS": 51015
+    "FIPS": 51015,
+    "VHD19": 75558,
+    "VDH18": 75457
   },
   {
     "Location": "Bath",
     "Population": 4209,
-    "FIPS": 51017
+    "FIPS": 51017,
+    "VHD19": 4147,
+    "VDH18": 4292
   },
   {
     "Location": "Bedford",
     "Population": 79462,
-    "FIPS": 51019
+    "FIPS": 51019,
+    "VHD19": 78997,
+    "VDH18": 78747
   },
   {
     "Location": "Bland",
     "Population": 6270,
-    "FIPS": 51021
+    "FIPS": 51021,
+    "VHD19": 6280,
+    "VDH18": 6293
   },
   {
     "Location": "Botetourt",
     "Population": 33596,
-    "FIPS": 51023
+    "FIPS": 51023,
+    "VHD19": 33419,
+    "VDH18": 33277
   },
   {
     "Location": "Brunswick",
     "Population": 15849,
-    "FIPS": 51025
+    "FIPS": 51025,
+    "VHD19": 16231,
+    "VDH18": 16384
   },
   {
     "Location": "Buchanan",
     "Population": 20355,
-    "FIPS": 51027
+    "FIPS": 51027,
+    "VHD19": 21004,
+    "VDH18": 21221
   },
   {
     "Location": "Buckingham",
     "Population": 16824,
-    "FIPS": 51029
+    "FIPS": 51029,
+    "VHD19": 17148,
+    "VDH18": 16999
   },
   {
     "Location": "Campbell",
     "Population": 55696,
-    "FIPS": 51031
+    "FIPS": 51031,
+    "VHD19": 54885,
+    "VDH18": 54973
   },
   {
     "Location": "Caroline",
     "Population": 30887,
-    "FIPS": 51033
+    "FIPS": 51033,
+    "VHD19": 30725,
+    "VDH18": 30772
   },
   {
     "Location": "Carroll",
     "Population": 29155,
-    "FIPS": 51035
+    "FIPS": 51035,
+    "VHD19": 29791,
+    "VDH18": 29636
   },
   {
     "Location": "Charles City",
     "Population": 6773,
-    "FIPS": 51036
+    "FIPS": 51036,
+    "VHD19": 6963,
+    "VDH18": 6941
   },
   {
     "Location": "Charlotte",
     "Population": 11529,
-    "FIPS": 51037
+    "FIPS": 51037,
+    "VHD19": 11880,
+    "VDH18": 11938
   },
   {
     "Location": "Chesterfield",
     "Population": 364548,
-    "FIPS": 51041
+    "FIPS": 51041,
+    "VHD19": 352802,
+    "VDH18": 348556
   },
   {
     "Location": "Clarke",
     "Population": 14783,
-    "FIPS": 51043
+    "FIPS": 51043,
+    "VHD19": 14619,
+    "VDH18": 14523
   },
   {
     "Location": "Craig",
     "Population": 4892,
-    "FIPS": 51045
+    "FIPS": 51045,
+    "VHD19": 5131,
+    "VDH18": 5064
   },
   {
     "Location": "Culpeper",
     "Population": 52552,
-    "FIPS": 51047
+    "FIPS": 51047,
+    "VHD19": 52605,
+    "VDH18": 51859
   },
   {
     "Location": "Cumberland",
     "Population": 9675,
-    "FIPS": 51049
+    "FIPS": 51049,
+    "VHD19": 9932,
+    "VDH18": 9809
   },
   {
     "Location": "Dickenson",
     "Population": 14124,
-    "FIPS": 51051
+    "FIPS": 51051,
+    "VHD19": 14318,
+    "VDH18": 14523
   },
   {
     "Location": "Dinwiddie",
     "Population": 27947,
-    "FIPS": 51053
+    "FIPS": 51053,
+    "VHD19": 28544,
+    "VDH18": 28529
   },
   {
     "Location": "Essex",
     "Population": 10599,
-    "FIPS": 51057
+    "FIPS": 51057,
+    "VHD19": 10953,
+    "VDH18": 10919
   },
   {
     "Location": "Fairfax",
     "Population": 1150309,
-    "FIPS": 51059
+    "FIPS": 51059,
+    "VHD19": 1147532,
+    "VDH18": 1150795
   },
   {
     "Location": "Fauquier",
     "Population": 72972,
-    "FIPS": 51061
+    "FIPS": 51061,
+    "VHD19": 71222,
+    "VDH18": 70675
   },
   {
     "Location": "Floyd",
     "Population": 15476,
-    "FIPS": 51063
+    "FIPS": 51063,
+    "VHD19": 15749,
+    "VDH18": 15795
   },
   {
     "Location": "Fluvanna",
     "Population": 27249,
-    "FIPS": 51065
+    "FIPS": 51065,
+    "VHD19": 27270,
+    "VDH18": 26783
   },
   {
     "Location": "Franklin",
     "Population": 54477,
-    "FIPS": 51067
+    "FIPS": 51067,
+    "VHD19": 56042,
+    "VDH18": 56195
   },
   {
     "Location": "Frederick",
     "Population": 91419,
-    "FIPS": 51069
+    "FIPS": 51069,
+    "VHD19": 89313,
+    "VDH18": 88355
   },
   {
     "Location": "Giles",
     "Population": 16787,
-    "FIPS": 51071
+    "FIPS": 51071,
+    "VHD19": 16720,
+    "VDH18": 16844
   },
   {
     "Location": "Gloucester",
     "Population": 38711,
-    "FIPS": 51073
+    "FIPS": 51073,
+    "VHD19": 37348,
+    "VDH18": 37349
   },
   {
     "Location": "Goochland",
     "Population": 24727,
-    "FIPS": 51075
+    "FIPS": 51075,
+    "VHD19": 23753,
+    "VDH18": 23244
   },
   {
     "Location": "Grayson",
     "Population": 15333,
-    "FIPS": 51077
+    "FIPS": 51077,
+    "VHD19": 15550,
+    "VDH18": 15631
   },
   {
     "Location": "Greene",
     "Population": 20552,
-    "FIPS": 51079
+    "FIPS": 51079,
+    "VHD19": 19819,
+    "VDH18": 19779
   },
   {
     "Location": "Greensville",
     "Population": 11391,
-    "FIPS": 51081
+    "FIPS": 51081,
+    "VHD19": 11336,
+    "VDH18": 11627
   },
   {
     "Location": "Halifax",
     "Population": 34022,
-    "FIPS": 51083
+    "FIPS": 51083,
+    "VHD19": 33911,
+    "VDH18": 34120
   },
   {
     "Location": "Hanover",
     "Population": 109979,
-    "FIPS": 51085
+    "FIPS": 51085,
+    "VHD19": 107766,
+    "VDH18": 107239
   },
   {
     "Location": "Henrico",
     "Population": 334389,
-    "FIPS": 51087
+    "FIPS": 51087,
+    "VHD19": 330818,
+    "VDH18": 329261
   },
   {
     "Location": "Henry",
     "Population": 50948,
-    "FIPS": 51089
+    "FIPS": 51089,
+    "VHD19": 50557,
+    "VDH18": 50953
   },
   {
     "Location": "Highland",
     "Population": 2232,
-    "FIPS": 51091
+    "FIPS": 51091,
+    "VHD19": 2190,
+    "VDH18": 2210
   },
   {
     "Location": "Isle of Wight",
     "Population": 38606,
-    "FIPS": 51093
+    "FIPS": 51093,
+    "VHD19": 37109,
+    "VDH18": 36953
   },
   {
     "Location": "James City",
     "Population": 78254,
-    "FIPS": 51095
+    "FIPS": 51095,
+    "VHD19": 76523,
+    "VDH18": 76397
   },
   {
     "Location": "King and Queen",
     "Population": 6608,
-    "FIPS": 51097
+    "FIPS": 51097,
+    "VHD19": 7025,
+    "VDH18": 7042
   },
   {
     "Location": "King George",
     "Population": 26723,
-    "FIPS": 51099
+    "FIPS": 51099,
+    "VHD19": 26836,
+    "VDH18": 26575
   },
   {
     "Location": "King William",
     "Population": 17810,
-    "FIPS": 51101
+    "FIPS": 51101,
+    "VHD19": 17148,
+    "VDH18": 16939
   },
   {
     "Location": "Lancaster",
     "Population": 10919,
-    "FIPS": 51103
+    "FIPS": 51103,
+    "VHD19": 10603,
+    "VDH18": 10783
   },
   {
     "Location": "Lee",
     "Population": 22173,
-    "FIPS": 51105
+    "FIPS": 51105,
+    "VHD19": 23423,
+    "VDH18": 23541
   },
   {
     "Location": "Loudoun",
     "Population": 420959,
-    "FIPS": 51107
+    "FIPS": 51107,
+    "VHD19": 413538,
+    "VDH18": 406850
   },
   {
     "Location": "Louisa",
     "Population": 37596,
-    "FIPS": 51109
+    "FIPS": 51109,
+    "VHD19": 37591,
+    "VDH18": 36778
   },
   {
     "Location": "Lunenburg",
     "Population": 11936,
-    "FIPS": 51111
+    "FIPS": 51111,
+    "VHD19": 12196,
+    "VDH18": 12086
   },
   {
     "Location": "Madison",
     "Population": 13837,
-    "FIPS": 51113
+    "FIPS": 51113,
+    "VHD19": 13261,
+    "VDH18": 13295
   },
   {
     "Location": "Mathews",
     "Population": 8533,
-    "FIPS": 51115
+    "FIPS": 51115,
+    "VHD19": 8834,
+    "VDH18": 8802
   },
   {
     "Location": "Mecklenburg",
     "Population": 30319,
-    "FIPS": 51117
+    "FIPS": 51117,
+    "VHD19": 30587,
+    "VDH18": 30650
   },
   {
     "Location": "Middlesex",
     "Population": 10625,
-    "FIPS": 51119
+    "FIPS": 51119,
+    "VHD19": 10582,
+    "VDH18": 10769
   },
   {
     "Location": "Montgomery",
     "Population": 99721,
-    "FIPS": 51121
+    "FIPS": 51121,
+    "VHD19": 98535,
+    "VDH18": 98985
   },
   {
     "Location": "Nelson",
     "Population": 14775,
-    "FIPS": 51125
+    "FIPS": 51125,
+    "VHD19": 14930,
+    "VDH18": 14836
   },
   {
     "Location": "New Kent",
     "Population": 22945,
-    "FIPS": 51127
+    "FIPS": 51127,
+    "VHD19": 23091,
+    "VDH18": 22391
   },
   {
     "Location": "Northampton",
     "Population": 12282,
-    "FIPS": 51131
+    "FIPS": 51131,
+    "VHD19": 11710,
+    "VDH18": 11735
   },
   {
     "Location": "Northumberland",
     "Population": 11839,
-    "FIPS": 51133
+    "FIPS": 51133,
+    "VHD19": 12095,
+    "VDH18": 12147
   },
   {
     "Location": "Nottoway",
     "Population": 15642,
-    "FIPS": 51135
+    "FIPS": 51135,
+    "VHD19": 15232,
+    "VDH18": 15420
   },
   {
     "Location": "Orange",
     "Population": 36254,
-    "FIPS": 51137
+    "FIPS": 51137,
+    "VHD19": 37051,
+    "VDH18": 36644
   },
   {
     "Location": "Page",
     "Population": 23709,
-    "FIPS": 51139
+    "FIPS": 51139,
+    "VHD19": 23902,
+    "VDH18": 23933
   },
   {
     "Location": "Patrick",
     "Population": 17608,
-    "FIPS": 51141
+    "FIPS": 51141,
+    "VHD19": 17608,
+    "VDH18": 17673
   },
   {
     "Location": "Pittsylvania",
     "Population": 60501,
-    "FIPS": 51143
+    "FIPS": 51143,
+    "VHD19": 60354,
+    "VDH18": 60949
   },
   {
     "Location": "Powhatan",
     "Population": 30333,
-    "FIPS": 51145
+    "FIPS": 51145,
+    "VHD19": 29652,
+    "VDH18": 29189
   },
   {
     "Location": "Prince Edward",
     "Population": 21849,
-    "FIPS": 51147
+    "FIPS": 51147,
+    "VHD19": 22802,
+    "VDH18": 22950
   },
   {
     "Location": "Prince George",
     "Population": 43010,
-    "FIPS": 51149
+    "FIPS": 51149,
+    "VHD19": 38353,
+    "VDH18": 38082
   },
   {
     "Location": "Prince William",
     "Population": 482204,
-    "FIPS": 51153
+    "FIPS": 51153,
+    "VHD19": 470335,
+    "VDH18": 468011
   },
   {
     "Location": "Pulaski",
     "Population": 33800,
-    "FIPS": 51155
+    "FIPS": 51155,
+    "VHD19": 34027,
+    "VDH18": 34066
   },
   {
     "Location": "Rappahannock",
     "Population": 7348,
-    "FIPS": 51157
+    "FIPS": 51157,
+    "VHD19": 7370,
+    "VDH18": 7252
   },
   {
     "Location": "Richmond County",
     "Population": 8923,
-    "FIPS": 51159
+    "FIPS": 51159,
+    "VHD19": 9023,
+    "VDH18": 9038
   },
   {
     "Location": "Roanoke County",
     "Population": 96929,
-    "FIPS": 51161
+    "FIPS": 51161,
+    "VHD19": 94186,
+    "VDH18": 94073
   },
   {
     "Location": "Rockbridge",
     "Population": 22650,
-    "FIPS": 51163
+    "FIPS": 51163,
+    "VHD19": 22573,
+    "VDH18": 22752
   },
   {
     "Location": "Rockingham",
     "Population": 83757,
-    "FIPS": 51165
+    "FIPS": 51165,
+    "VHD19": 81948,
+    "VDH18": 81244
   },
   {
     "Location": "Russell",
     "Population": 25781,
-    "FIPS": 51167
+    "FIPS": 51167,
+    "VHD19": 26586,
+    "VDH18": 26748
   },
   {
     "Location": "Scott",
     "Population": 21576,
-    "FIPS": 51169
+    "FIPS": 51169,
+    "VHD19": 21566,
+    "VDH18": 21534
   },
   {
     "Location": "Shenandoah",
     "Population": 44186,
-    "FIPS": 51171
+    "FIPS": 51171,
+    "VHD19": 43616,
+    "VDH18": 43497
   },
   {
     "Location": "Smyth",
     "Population": 29800,
-    "FIPS": 51173
+    "FIPS": 51173,
+    "VHD19": 30104,
+    "VDH18": 30472
   },
   {
     "Location": "Southampton",
     "Population": 17996,
-    "FIPS": 51175
+    "FIPS": 51175,
+    "VHD19": 17631,
+    "VDH18": 17586
   },
   {
     "Location": "Spotsylvania",
     "Population": 140032,
-    "FIPS": 51177
+    "FIPS": 51177,
+    "VHD19": 136215,
+    "VDH18": 134238
   },
   {
     "Location": "Stafford",
     "Population": 156927,
-    "FIPS": 51179
+    "FIPS": 51179,
+    "VHD19": 152882,
+    "VDH18": 149960
   },
   {
     "Location": "Surry",
     "Population": 6561,
-    "FIPS": 51181
+    "FIPS": 51181,
+    "VHD19": 6422,
+    "VDH18": 6474
   },
   {
     "Location": "Sussex",
     "Population": 10829,
-    "FIPS": 51183
+    "FIPS": 51183,
+    "VHD19": 11159,
+    "VDH18": 11237
   },
   {
     "Location": "Tazewell",
     "Population": 40429,
-    "FIPS": 51185
+    "FIPS": 51185,
+    "VHD19": 40595,
+    "VDH18": 40855
   },
   {
     "Location": "Warren",
     "Population": 40727,
-    "FIPS": 51187
+    "FIPS": 51187,
+    "VHD19": 40164,
+    "VDH18": 40003
   },
   {
     "Location": "Washington",
     "Population": 53935,
-    "FIPS": 51191
+    "FIPS": 51191,
+    "VHD19": 53740,
+    "VDH18": 54402
   },
   {
     "Location": "Westmoreland",
     "Population": 18477,
-    "FIPS": 51193
+    "FIPS": 51193,
+    "VHD19": 18015,
+    "VDH18": 17830
   },
   {
     "Location": "Wise",
     "Population": 36130,
-    "FIPS": 51195
+    "FIPS": 51195,
+    "VHD19": 37383,
+    "VDH18": 38012
   },
   {
     "Location": "Wythe",
     "Population": 28290,
-    "FIPS": 51197
+    "FIPS": 51197,
+    "VHD19": 28684,
+    "VDH18": 28754
   },
   {
     "Location": "York",
     "Population": 70045,
-    "FIPS": 51199
+    "FIPS": 51199,
+    "VHD19": 68280,
+    "VDH18": 67846
   },
   {
     "Location": "Alexandria",
     "Population": 159467,
-    "FIPS": 51510
+    "FIPS": 51510,
+    "VHD19": 159428,
+    "VDH18": 160530
   },
   {
     "Location": "Bristol",
     "Population": 17219,
-    "FIPS": 51520
+    "FIPS": 51520,
+    "VHD19": 16762,
+    "VDH18": 16482
   },
   {
     "Location": "Buena Vista",
     "Population": 6641,
-    "FIPS": 51530
+    "FIPS": 51530,
+    "VHD19": 6478,
+    "VDH18": 6237
   },
   {
     "Location": "Charlottesville",
     "Population": 46553,
-    "FIPS": 51540
+    "FIPS": 51540,
+    "VHD19": 47266,
+    "VDH18": 48117
   },
   {
     "Location": "Chesapeake",
     "Population": 249422,
-    "FIPS": 51550
+    "FIPS": 51550,
+    "VHD19": 244835,
+    "VDH18": 242634
   },
   {
     "Location": "Colonial Heights",
     "Population": 18170,
-    "FIPS": 51570
+    "FIPS": 51570,
+    "VHD19": 17370,
+    "VDH18": 17833
   },
   {
     "Location": "Covington",
     "Population": 5737,
-    "FIPS": 51580
+    "FIPS": 51580,
+    "VHD19": 5538,
+    "VDH18": 5460
   },
   {
     "Location": "Danville",
     "Population": 42590,
-    "FIPS": 51590
+    "FIPS": 51590,
+    "VHD19": 40044,
+    "VDH18": 40693
   },
   {
     "Location": "Emporia",
     "Population": 5766,
-    "FIPS": 51595
+    "FIPS": 51595,
+    "VHD19": 5346,
+    "VDH18": 5121
   },
   {
     "Location": "Fairfax City",
     "Population": 24146,
-    "FIPS": 51600
+    "FIPS": 51600,
+    "VHD19": 24019,
+    "VDH18": 24574
   },
   {
     "Location": "Falls Church",
     "Population": 14658,
-    "FIPS": 51610
+    "FIPS": 51610,
+    "VHD19": 14617,
+    "VDH18": 14772
   },
   {
     "Location": "Franklin City",
     "Population": 8180,
-    "FIPS": 51620
+    "FIPS": 51620,
+    "VHD19": 7967,
+    "VDH18": 8013
   },
   {
     "Location": "Fredericksburg",
     "Population": 27982,
-    "FIPS": 51630
+    "FIPS": 51630,
+    "VHD19": 29036,
+    "VDH18": 29144
   },
   {
     "Location": "Galax",
     "Population": 6720,
-    "FIPS": 51640
+    "FIPS": 51640,
+    "VHD19": 6347,
+    "VDH18": 6423
   },
   {
     "Location": "Hampton",
     "Population": 137148,
-    "FIPS": 51650
+    "FIPS": 51650,
+    "VHD19": 134510,
+    "VDH18": 134313
   },
   {
     "Location": "Harrisonburg",
     "Population": 51814,
-    "FIPS": 51660
+    "FIPS": 51660,
+    "VHD19": 53016,
+    "VDH18": 54033
   },
   {
     "Location": "Hopewell",
     "Population": 23033,
-    "FIPS": 51670
+    "FIPS": 51670,
+    "VHD19": 22529,
+    "VDH18": 22596
   },
   {
     "Location": "Lexington",
     "Population": 7320,
-    "FIPS": 51678
+    "FIPS": 51678,
+    "VHD19": 7446,
+    "VDH18": 7136
   },
   {
     "Location": "Lynchburg",
     "Population": 79009,
-    "FIPS": 51680
+    "FIPS": 51680,
+    "VHD19": 82168,
+    "VDH18": 82126
   },
   {
     "Location": "Manassas City",
     "Population": 42772,
-    "FIPS": 51683
+    "FIPS": 51683,
+    "VHD19": 41085,
+    "VDH18": 41641
   },
   {
     "Location": "Manassas Park",
     "Population": 17219,
-    "FIPS": 51685
+    "FIPS": 51685,
+    "VHD19": 17478,
+    "VDH18": 17307
   },
   {
     "Location": "Martinsville",
     "Population": 13485,
-    "FIPS": 51690
+    "FIPS": 51690,
+    "VHD19": 12554,
+    "VDH18": 12902
   },
   {
     "Location": "Newport News",
     "Population": 186247,
-    "FIPS": 51700
+    "FIPS": 51700,
+    "VHD19": 179225,
+    "VDH18": 178626
   },
   {
     "Location": "Norfolk",
     "Population": 238005,
-    "FIPS": 51710
+    "FIPS": 51710,
+    "VHD19": 242742,
+    "VDH18": 244076
   },
   {
     "Location": "Norton",
     "Population": 3687,
-    "FIPS": 51720
+    "FIPS": 51720,
+    "VHD19": 3981,
+    "VDH18": 3968
   },
   {
     "Location": "Petersburg",
     "Population": 33458,
-    "FIPS": 51730
+    "FIPS": 51730,
+    "VHD19": 31346,
+    "VDH18": 31567
   },
   {
     "Location": "Poquoson",
     "Population": 12460,
-    "FIPS": 51735
+    "FIPS": 51735,
+    "VHD19": 12271,
+    "VDH18": 12190
   },
   {
     "Location": "Portsmouth",
     "Population": 97915,
-    "FIPS": 51740
+    "FIPS": 51740,
+    "VHD19": 94398,
+    "VDH18": 94632
   },
   {
     "Location": "Radford",
     "Population": 16070,
-    "FIPS": 51750
+    "FIPS": 51750,
+    "VHD19": 18249,
+    "VDH18": 18339
   },
   {
     "Location": "Richmond City",
     "Population": 226610,
-    "FIPS": 51760
+    "FIPS": 51760,
+    "VHD19": 230436,
+    "VDH18": 228783
   },
   {
     "Location": "Roanoke City",
     "Population": 100011,
-    "FIPS": 51770
+    "FIPS": 51770,
+    "VHD19": 99143,
+    "VDH18": 99920
   },
   {
     "Location": "Salem",
     "Population": 25346,
-    "FIPS": 51775
+    "FIPS": 51775,
+    "VHD19": 25301,
+    "VDH18": 25643
   },
   {
     "Location": "Staunton",
     "Population": 25750,
-    "FIPS": 51790
+    "FIPS": 51790,
+    "VHD19": 24932,
+    "VDH18": 24922
   },
   {
     "Location": "Suffolk",
     "Population": 94324,
-    "FIPS": 51800
+    "FIPS": 51800,
+    "VHD19": 92108,
+    "VDH18": 91185
   },
   {
     "Location": "Virginia Beach",
     "Population": 459470,
-    "FIPS": 51810
+    "FIPS": 51810,
+    "VHD19": 449974,
+    "VDH18": 450189
   },
   {
     "Location": "Waynesboro",
     "Population": 22196,
-    "FIPS": 51820
+    "FIPS": 51820,
+    "VHD19": 22630,
+    "VDH18": 22628
   },
   {
     "Location": "Williamsburg",
     "Population": 15425,
-    "FIPS": 51830
+    "FIPS": 51830,
+    "VHD19": 14954,
+    "VDH18": 14896
   },
   {
     "Location": "Winchester",
     "Population": 28120,
-    "FIPS": 51840
+    "FIPS": 51840,
+    "VHD19": 28078,
+    "VDH18": 28108
   }
-]
+ ]

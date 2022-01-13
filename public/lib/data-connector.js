@@ -7,7 +7,7 @@ export default {
     data.averagesByFips = {}
     data.averagesByFips100k = {}
     Object.entries(data.dailyByFips).forEach(([fips, dailyData]) => {
-      const pop = data.populationsByFips.find(o => o.FIPS == fips).Population
+      const pop = data.populationsByFips.find(o => o.FIPS == fips).VDH18
       const populationOffset = 100000 / pop
       data.averagesByFips[fips] = []
       data.averagesByFips100k[fips] = dailyData.map((cases, index) => {
