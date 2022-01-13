@@ -56,6 +56,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
       }
     })
     svg.select('.date').text(format.date(allData.dates[currentDateIndex]))
+
   }
 
   const showTooltip = (id) => {
@@ -143,7 +144,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
   const xScale = d3.scaleBand()
     .domain(allData.stateTotals)
     .range([0, width - 20])
-    .padding(0.4)
+    .padding(0.3)
 
   const yScale = d3.scaleLinear()
     .domain([0, d3.max(allData.stateTotals)])
@@ -158,7 +159,11 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
     .attr('y', function(d, i) { return height - yScale(d) - 50})
     .attr('width',  xScale.bandwidth())
     .attr('height', function(d, i) { return yScale(d); })
-    .on('click, mouseover', function (d, i, el) {
+    .on('click mouseover', function (d, i, el) {
+      if (d3.event.type == 'click') {
+        updateData(i)
+      }
+      console.log(d3.event)
       tooltip.show(`
       <h2>${ format.date(allData.dates[i])}</h2>
       <table>
@@ -207,10 +212,10 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
   function animate() {
     if (playing && currentDateIndex < allData.dates.length - 1) {
       updateData(currentDateIndex + 1)
-      requestAnimationFrame(animate)
+      setTimeout(() => requestAnimationFrame(animate), 10) // native is too fast
     } else {
       playing = false
-      playButton.innerText = 'Play'
+      playButton.setAttribute('aria-label', 'Play')
       playButton.classList.remove('on')
     }
 
@@ -218,7 +223,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
 
   playButton.addEventListener('click', (e) => {
     playing = e.target.classList.toggle('on')
-    e.target.innerText = playing ? 'Pause' : 'Play'
+    playButton.setAttribute('aria-label', playing ? 'Pause' : 'Play')
     if (playing) {
       updateData(0)
       requestAnimationFrame(animate)

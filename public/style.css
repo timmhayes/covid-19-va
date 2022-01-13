@@ -16,15 +16,41 @@ header h2 {
   margin-top: 0;
 }
 
-.map-box {
+.description h2 {
+  margin: 0;
+}
+
+.map-box, .description {
   border: 1px #ccc solid;
   max-width: 1000px;
   margin: 2rem auto;
   padding: 1rem;
+  position: relative;;
 }
 
-svg {
-  /* width: 100%; */
+.description {
+  background: #fafafa;
+}
+
+.play-button {
+  background: white url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik04IDV2MTRsMTEtN3oiLz48L3N2Zz4=") no-repeat center;
+  border-radius: 50%;
+  bottom: 10px;
+  cursor: pointer;
+  height: 30px;
+  left: 10px;
+  position: absolute;
+  width: 30px;
+}
+
+.play-button.on {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik02IDE5aDRWNUg2djE0em04LTE0djE0aDRWNWgtNHoiLz48L3N2Zz4=")
+}
+
+input {
+  display: block;
+  margin-left: 30px;
+  width: calc(100% - 30px);
 }
 
 path {
@@ -75,8 +101,3 @@ path {
   text-align: center;
 }
 
-input {
-  display: block;
-  margin-left: 5px;
-  width: calc(100% - 10px);
-}

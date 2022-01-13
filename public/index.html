@@ -15,9 +15,22 @@
   <div class="map-box">
     <svg viewBox="0 0 1000 625" preserveAspectRatio="xMaxYMax meet"></svg>
     <input type="range" min="0" class="slider" id="dateRange">
+    <button class="play-button" aria-label="Play"></button>
   </div>
-  <div id="currentDateOffset"></div>
-  <button class="play-button">Play</button>
+  <div class="description">
+    <h2>Sources</h2>
+    <p>
+      COVID data provided by the <a href="https://data.virginia.gov/Government/VDH-COVID-19-PublicUseDataset-Cases/bre9-aqqr">VDH-COVID-19-PublicUseDataset-Cases</a>
+      dataset located on the <a href="https://data.virginia.gov/">Virginia Open Data Portal</a>. Data is current up to the latest available date.
+    </p>
+    <p>
+      Population data provided by the <a href="https://data.virginia.gov/Government/VDH-PublicUseDataset-NCHS-Population/5s4f-hthh/">VDH-PublicUseDataset-NCHS-Population</a>
+      dataset located on the <a href="https://data.virginia.gov/">Virginia Open Data Portal</a>. To match the population data used by
+      the Virginia Department of Health's <a href="https://www.vdh.virginia.gov/coronavirus/see-the-numbers/covid-19-in-virginia/covid-19-in-virginia-locality/">Locality Numbers</a>,
+      Virginia's 2018 estimates from 2018 were used.
+    </p>
+
+  </div>
   <script src="https://d3js.org/d3.v5.js"></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
