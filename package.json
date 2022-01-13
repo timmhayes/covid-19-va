@@ -4,6 +4,9 @@
   "description": "Data visualization for VA COVID-19 map",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "start": "node server.js"
   },
