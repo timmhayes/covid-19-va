@@ -23,6 +23,9 @@
   "dependencies": {
     "fastify": "^3.25.3",
     "fastify-static": "^4.5.0",
-    "node-cron": "^3.0.0"
+    "gifencoder": "^2.0.1",
+    "node-cron": "^3.0.0",
+    "png-js": "^1.0.0",
+    "puppeteer": "^13.0.1"
   }
 }

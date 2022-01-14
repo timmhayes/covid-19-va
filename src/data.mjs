@@ -1,6 +1,7 @@
-import https from 'https';
-import {promises} from 'fs';
-const {writeFile, readFile, stat, mkdir} = promises;
+import https from 'https'
+import {promises} from 'fs'
+const {writeFile, readFile, stat, mkdir} = promises
+import openGraph from './open-graph.js'
 
 const fetch = url => {
   return new Promise((resolve, reject) => {
@@ -14,13 +15,18 @@ const fetch = url => {
   })
 }
 
-const refreshCache = async () => {
+const refreshCache = async (siteAddress) => {
   //https://data.census.gov/cedsci/table?q=United%20States&t=Populations%20and%20People&g=0100000US_0400000US51%240500000
   // also this https://data.virginia.gov/Government/VDH-PublicUseDataset-NCHS-Population/5s4f-hthh
 
-  console.log(`Refreching cache`)
+  console.log(`Refreshing cache`)
   const dataDirectory = './data'
   const stats = await stat(dataDirectory).catch(async e => { await mkdir(dataDirectory)})
+
+  const dataFilePath = `${dataDirectory}/data.json`
+  const previousFileExists = await stat(dataDirectory).then(e => true).catch(e => false)
+  const lastDataSave = await readFile(dataFilePath).then(e => JSON.parse(e)).catch(e => null)
+  const lastUpdate = lastDataSave ? lastDataSave.dates[lastDataSave.dates.length - 1] : null
 
   let [results, populationsByFips] = await Promise.all([
     await fetch(`https://data.virginia.gov/resource/bre9-aqqr.json?$limit=100000`),
@@ -54,6 +60,7 @@ const refreshCache = async () => {
     })
   })
 
+
   const json = {
     lastQueried: new Date(),
     dates: dates.map(date => date.replace('T00:00:00.000', '')),
@@ -61,14 +68,19 @@ const refreshCache = async () => {
     dailyByFips: dailyByFips//,  stateTotals: stateTotals
   }
 
-  writeFile(`${dataDirectory}/data.json`, JSON.stringify(json))
+  writeFile(dataFilePath, JSON.stringify(json))
   console.log(`Data refrested at ${json.lastQueried}`)
+
+  if (!lastUpdate || lastUpdate == json.dates[json.dates.length - 1]) {
+    // recreate open graph gif
+    openGraph.generateGif(siteAddress, './data/graph.gif')
+  }
   return json
 }
 
 export default {
-  update: async () => {
-    const data = await refreshCache()
+  update: async (siteAddress) => {
+    const data = await refreshCache(siteAddress)
     return data
   }
 }

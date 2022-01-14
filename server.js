@@ -7,13 +7,12 @@ import fastifyStatic from 'fastify-static'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+let siteAddress
 
 cron.schedule('30 */6 * * *', () => {
   // At minute 30 past every 6th hour.
-  data.update()
+  data.update(siteAddress)
 });
-
-data.update()
 
 const fastify = Fastify({logger: false});
 fastify.register(fastifyStatic, {
@@ -37,6 +36,8 @@ fastify.listen(process.env.PORT || '8080', '127.0.0.1', function(err, address) {
     fastify.log.error(err);
     process.exit(1);
   }
+  siteAddress = address
+  data.update(siteAddress)
   console.log(`Your app is listening on ${address}`);
   fastify.log.info(`server listening on ${address}`);
 });
