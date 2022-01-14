@@ -19,7 +19,8 @@ export default {
 
     console.log('updating open graph gif')
     const browser = await puppeteer.launch({
-      headless: true
+      headless: true,
+      args: ['--no-sandbox']
     })
 
     const page = await browser.newPage()
