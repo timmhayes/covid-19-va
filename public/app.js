@@ -30,6 +30,11 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
   const allValues = Object.values(allData.averagesByFips100k).reduce((prev, current) => [...prev, ...current], [])
   const averageMax = getBoundsPruneOutliers(allValues).max
   const geojson = topojson.feature(va, va.objects.counties).features
+  const numberOfSteps = 20
+  const colorScale = d3.scalePow()
+    .range([0, numberOfSteps])
+    .domain([0, averageMax])
+    .exponent(0.5)
 
   // Map and projection
   const projection = d3.geoConicConformal()
@@ -49,7 +54,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
       const fips = d.id
       const avginFIPS = allData.averagesByFips100k[fips]
       if (avginFIPS) {
-        return d3.interpolateTurbo(avginFIPS[currentDateIndex]/averageMax)
+        return d3.interpolateTurbo(colorScale(avginFIPS[currentDateIndex])/20)
       } else {
         console.log(`No average for ${fips}`)
         return '#ccc'
@@ -77,7 +82,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
     `)
   }
 
-  //#region Map
+  //#region Map_Setup
   svg.append('g')
     .selectAll('path')
     .data(geojson)
@@ -87,7 +92,9 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
       showTooltip(d.id)
     })
     .on('mouseout', () => tooltip.hide())
+  //#endregion
 
+  //#region Slider
   range.setAttribute('min', 0)
   range.setAttribute('max', allData.dates.length - 1)
   range.setAttribute('value', allData.dates.length - 1)
@@ -97,10 +104,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
   //#endregion
 
   //#region LEGEND_TOP
-  const data = d3.range(20)
-  const x = d3.scaleLinear()
-    .domain([0, 20])
-    .range([0, averageMax])
+  const data = d3.range(numberOfSteps)
 
   svg.append('text')
     .attr('class', 'date')
@@ -119,8 +123,9 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
     .attr('height', 30)
     .attr('x', (d, i) => i*29)
     .attr('width', 26)
+    .attr('stroke-width', 1)
     .attr('fill', d => d3.interpolateTurbo(d/20))
-    .attr('stroke', 'gray')
+    .attr('stroke', 'black')
 
   rects.append('text')
     .attr('x', (d, i) => i*29 + 13)
@@ -128,7 +133,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
     .attr('text-anchor', 'middle')
     .attr('font-size', '14px')
     .attr('fill', 'black')
-    .text(function(d) {  return Math.round(x(d)) });
+    .text(function(d) {  return Math.round(colorScale.invert(d)) });
 
   rects.append('text')
     .attr('x', 300)
@@ -166,7 +171,6 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
       if (d3.event.type == 'click') {
         updateData(i)
       }
-      console.log(d3.event)
       tooltip.show(`
       <h2>${ format.date(allData.dates[i])}</h2>
       <table>
@@ -174,6 +178,8 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
       </table>
       `)
     })
+
+
 
   const xScaleCal = d3.scaleTime()
     .domain(d3.extent(allData.dates, function(d) { 
