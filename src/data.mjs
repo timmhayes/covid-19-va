@@ -71,16 +71,16 @@ const refreshCache = async (siteAddress) => {
   writeFile(dataFilePath, JSON.stringify(json))
   console.log(`Data refrested at ${json.lastQueried}`)
 
-  if (!lastUpdate || lastUpdate == json.dates[json.dates.length - 1]) {
+  if (true) {//} || !lastUpdate || lastUpdate == json.dates[json.dates.length - 1]) {
     // recreate open graph gif
     openGraph.generateGif(siteAddress, './data/graph.gif')
   }
-  return json
+  return lastUpdate
 }
 
 export default {
   update: async (siteAddress) => {
-    const data = await refreshCache(siteAddress)
-    return data
+    const lastUpdate = await refreshCache(siteAddress)
+    return lastUpdate
   }
 }

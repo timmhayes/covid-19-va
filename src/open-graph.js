@@ -8,7 +8,7 @@ function decode(png) {
 }
 
 async function gifAddFrame(page, encoder) {
-  const pngBuffer = await page.screenshot({ clip: { width: 1024, height: 685, x: 0, y: 110 } })
+  const pngBuffer = await page.screenshot({ clip: { width: 1024, height: 620, x: 3, y: 130 } })
   const png = new PNG(pngBuffer)
   await decode(png).then(pixels => encoder.addFrame(pixels))
 }
@@ -20,27 +20,27 @@ export default {
     console.log('updating open graph gif')
     const browser = await puppeteer.launch({
       headless: true,
-      args: ['--no-sandbox']
+      args: ['--no-sandbox', '--disable-setuid-sandbox']
     })
 
     const page = await browser.newPage()
-    page.setViewport({width: 1024, height: 768})
+    page.setViewport({width: 1060, height: 768})
     await page.goto(url, {
       waitUntil: ['networkidle0']
     });
 
     // record gif
-    var encoder = new GIFEncoder(1024, 768);
+    var encoder = new GIFEncoder(1024, 620);
     encoder.createWriteStream()
       .pipe(fs.createWriteStream(outputFile));
 
     // setting gif encoder
     encoder.start()
     encoder.setRepeat(0)
-    encoder.setDelay(150)
+    encoder.setDelay(500)
     encoder.setQuality(10) // default
 
-    for (let i = 30; i >= 0; i--) {
+    for (let i = 10; i >= 0; i--) {
       await page.evaluate((i) => {
         const range = document.querySelector('#dateRange')
         range.value = parseInt(dateRange.max) - i

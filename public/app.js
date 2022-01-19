@@ -23,8 +23,8 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
   console.log(allData)
 
   const svg = d3.select('svg'),
-  width = 1000, // +svg.attr('width'),
-  height = 625, // +svg.attr('height'),
+  width = 1000,
+  height = 625,
   range = document.querySelector('#dateRange')
   let currentDateIndex = 0
   const allValues = Object.values(allData.averagesByFips100k).reduce((prev, current) => [...prev, ...current], [])
