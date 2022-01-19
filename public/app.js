@@ -61,7 +61,7 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
 
   const showTooltip = (id) => {
     const data = allData.averagesByFips100k[id][currentDateIndex]
-    if (!data) return
+    if (data === undefined) return
     const fips = allData.populationsByFips.find(d => d.FIPS == id)
     const daily = allData.dailyByFips[id][currentDateIndex]
     const average7Day = allData.averagesByFips[id][currentDateIndex]
@@ -151,6 +151,9 @@ const getBoundsPruneOutliers = (arrayOfValues) => {
     .range([0, 80]);
 
   const g = svg.append('g')
+    .attr('class', 'state-totals')
+    .on('mouseout', () => {if (d3.event.toElement.tagName === 'svg') tooltip.hide()})
+
   g.selectAll('.bar')
     .data(allData.stateTotals)
     .enter().append('rect')

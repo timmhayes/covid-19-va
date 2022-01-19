@@ -57,13 +57,17 @@ path {
   stroke-width: 1;
 }
 
+.state-totals {
+  pointer-events:all
+}
+
 .tooltip {
   background: rgba(255, 255, 255, 0.8);
   border: 1px rgb(76, 76, 101) solid;
   border-radius: 5px;
   display: none;
   right: 50px;
-  min-width: 250px;
+  min-width: 275px;
   position: absolute;
   top: 0;
   width: 200px;
@@ -89,6 +93,7 @@ path {
 
 .tooltip td:first-child {
   font-weight: bold;
+  width: 80%;
 }
 
 .tooltip td:last-child {
