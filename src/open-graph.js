@@ -37,13 +37,13 @@ export default {
     // setting gif encoder
     encoder.start()
     encoder.setRepeat(0)
-    encoder.setDelay(500)
+    encoder.setDelay(150)
     encoder.setQuality(10) // default
 
-    for (let i = 10; i >= 0; i--) {
+    for (let i = 30; i >= 0; i--) {
       await page.evaluate((i) => {
         const range = document.querySelector('#dateRange')
-        range.value = parseInt(dateRange.max) - i
+        range.value = parseInt(range.max) - i
         const event = new Event('input')
         range.dispatchEvent(event)
       }, i)
