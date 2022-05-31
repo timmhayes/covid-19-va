@@ -29,7 +29,7 @@ const refreshCache = async (siteAddress) => {
   const lastUpdate = lastDataSave ? lastDataSave.dates[lastDataSave.dates.length - 1] : null
 
   let [results, populationsByFips] = await Promise.all([
-    await fetch(`https://data.virginia.gov/resource/bre9-aqqr.json?$limit=100000`),
+    await fetch(`https://data.virginia.gov/resource/bre9-aqqr.json?$limit=200000`),
     await readFile('./src/fips.json', 'utf8').then(data => JSON.parse(data))
   ])
   writeFile(`${dataDirectory}/raw-data.json`, JSON.stringify(results))
